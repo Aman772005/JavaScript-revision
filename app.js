@@ -459,7 +459,45 @@ for(i=1;i>0;i++){
     console.log(i)
 }
 
+// 🔵 LOGIC INTENSIVE (IMPORTANT)
 
+
+// Q1️⃣1️⃣ Check if a number is prime or not
+
+
+let num12 = 15 ;
+
+let prime = num12 > 1;
+
+for(i= 2;i< num12&&prime; i++){
+    if(num12%i===0){
+        prime=false
+    }else{
+        prime=true
+    }
+}
+
+console.log(prime)
+
+console.log(prime?"prime":"not prime")
+
+
+// Q1️⃣2️⃣ Find factorial of a number
+
+
+
+let abcd = 1
+
+for(i=1;i<=8;i++){ 
+    abcd = abcd*i 
+}
+
+console.log(abcd)
+
+
+
+
+  
 
 
 
