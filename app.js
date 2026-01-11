@@ -542,7 +542,7 @@ if(reva === temp){
     console.log("number is not palindrome")
 }
 
-
+// question no. 16 to 20 on yesterday
 
 
 
