@@ -462,7 +462,7 @@ for(i=1;i>0;i++){
 // 🔵 LOGIC INTENSIVE (IMPORTANT)
 
 
-// Q1️⃣1️⃣ Check if a number is prime or not
+// *** Q1️⃣1️⃣ Check if a number is prime or not
 
 
 let num12 = 15 ;
@@ -482,7 +482,7 @@ console.log(prime)
 console.log(prime?"prime":"not prime")
 
 
-// Q1️⃣2️⃣ Find factorial of a number
+// *** Q1️⃣2️⃣ Find factorial of a number
 
 
 
@@ -493,6 +493,55 @@ for(i=1;i<=8;i++){
 }
 
 console.log(abcd)
+
+// *** Q1️⃣3️⃣ Reverse a number
+
+let org = 1234;
+
+let rev = 0;
+
+while(org>0){
+
+    let digit = org % 10 ;  // get last ditit
+    rev = rev * 10 + digit ; // build reverse
+    org = Math.floor(org/10); //remove last digit
+}
+
+console.log(rev)
+
+// *** Q1️⃣4️⃣ Count number of digits in a number
+
+let numa = 12345 ;
+
+let count = 0;
+
+while(numa>0){
+    numa = Math.floor(numa/10) ;
+    count++ ;
+}
+
+console.log(count)
+
+// *** Q1️⃣5️⃣ Check if a number is palindrome
+
+let numbb = 1229 ;
+let temp = numbb ;
+let reva = 0;
+
+while(numbb>0){
+    let digit = numbb%10 ;
+    reva = reva*10 + digit;
+    numbb = Math.floor(numbb/10);
+}
+
+console.log(reva)
+
+if(reva === temp){
+    console.log("number is palindrome")
+}else{
+    console.log("number is not palindrome")
+}
+
 
 
 
