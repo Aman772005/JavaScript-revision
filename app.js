@@ -597,6 +597,7 @@ for(i=n;i>=1;i--){
 }
 
 
+// i dont know wheater now contribution will show or not 
 
 
 
