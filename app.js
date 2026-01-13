@@ -542,7 +542,76 @@ if(reva === temp){
     console.log("number is not palindrome")
 }
 
-// question no. 16 to 20 on yesterday
+
+
+// 🔵 PATTERN THINKING (DO NOT SKIP)
+
+// *** Q1️⃣6️⃣ Print pattern:
+// *
+// **
+// ***
+// ****
+// *****
+
+let numbar = 6;
+
+for(i=1;i<=numbar;i++){
+    let row =""
+    for(j=1;j<=i;j++){
+        row = row+"*"
+    }
+    console.log(row)
+}
+
+// *** Q1️⃣7️⃣ Print pattern:
+// 1
+// 12
+// 123
+// 1234
+
+let numbra1 = 5
+
+for(i=1;i<=5;i++){
+    let row1 = ""
+    for(j=1;j<=i;j++){
+      row1+= j ;
+    }
+    console.log(row1)
+}
+
+// *** Q1️⃣8️⃣ Print pattern:
+// *****
+// ****
+// ***
+// **
+// *
+
+let n = 5;
+
+for(i=n;i>=1;i--){
+    let rown = ""
+    for(j=1;j<=i;j++){
+        rown += "*"
+    }
+    console.log(rown)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
