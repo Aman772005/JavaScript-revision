@@ -281,7 +281,7 @@ switch (oper) {
 
 /**
  
- Q1️⃣7️⃣ Check if a year is a leap year
+  *** Q1️⃣7️⃣ Check if a year is a leap year
 
  */
 
@@ -295,7 +295,7 @@ if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
 
 /**
  
- Q1️⃣8️⃣ Find the largest of three numbers
+ *** Q1️⃣8️⃣ Find the largest of three numbers
 
  */
 
@@ -316,7 +316,7 @@ else {
 
 /**
  * 
- Q1️⃣9️⃣ Check whether a character is:
+***  Q1️⃣9️⃣ Check whether a character is:
 
 Alphabet
 Digit
@@ -339,7 +339,7 @@ else {
 
 /**
  
- Q2️⃣0️⃣ Check if a number is divisible by 5 and 11
+*** Q2️⃣0️⃣ Check if a number is divisible by 5 and 11
 
  */
 
