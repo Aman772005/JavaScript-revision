@@ -580,6 +580,7 @@ for(i=1;i<=5;i++){
 }
 
 // *** Q1️⃣8️⃣ Print pattern:
+
 // *****
 // ****
 // ***
@@ -596,8 +597,38 @@ for(i=n;i>=1;i--){
     console.log(rown)
 }
 
+// 🔥 CHALLENGE (NO EXCUSES)
 
-// i dont know wheater now contribution will show or not 
+// *** Q1️⃣9️⃣ Find the largest digit in a number
+
+// Input: 58392
+// Output: 9
+
+let no = "58392"
+let greatest = no[0]
+
+for(i=0;i<=no.length;i++){
+   
+   if (no[i]>greatest){
+    greatest = no[i]
+   }  
+}
+console.log(greatest)
+
+// Q2️⃣0️⃣ Find sum of digits of a number
+
+// Input: 456
+// Output: 15
+
+
+let no1 = "456"
+let sum1 = 0;
+
+for(i=0;i<no1.length;i++){
+    sum1 += Number(no1[i])
+}
+
+console.log(sum1)
 
 
 
