@@ -673,6 +673,59 @@ const square = (a) => a*a ;
 const result2 = square(32);
 console.log(result2);
 
+// Q5 Positive, Negative, or Zero
+
+// Function that checks if a number is positive, negative, or zero
+
+
+
+function PNZ(n) {
+    if(n>0){
+        return "positive"
+    }else if(n<0){
+        return "negative"
+    }else{
+        return "Zero"
+    }
+}
+
+console.log(PNZ(9));
+
+
+
+// 🔵 FUNCTIONS + LOOPS
+
+
+
+// Q6 Numbers from 1 to n
+
+// Function with parameter n prints numbers from 1 to n
+
+
+const num = (n) =>{for(let i=1;i<=n;i++){console.log(i)}} 
+
+num(5);
+
+// Q7 Factorial
+
+// Function to calculate factorial using loop
+
+// Input: 5 → Output: 120
+
+const factorial = (n) =>  {
+
+    let multiply = 1
+
+    for(let i = 1;i<=n;i++){
+    
+    multiply = multiply * i
+}
+
+    return multiply
+}
+
+console.log(factorial(5));
+
 
 
 
