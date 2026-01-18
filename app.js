@@ -726,6 +726,73 @@ const factorial = (n) =>  {
 
 console.log(factorial(5));
 
+// Q8 *** Prime check
+
+// Function that returns true if number is prime, false otherwise
+
+const prime = (a) => {
+
+
+    if (a<=1) return false ;
+
+
+    for(let i=2;i<a;i++){
+       if( a % i === 0){
+         return false
+       }
+    }
+        return "true"
+        
+}
+
+console.log(prime(17));
+
+// Q9 *** Reverse number
+
+// Function that reverses a number without converting it to string
+
+
+const reverse = (a) => {
+
+    let sign = a>0 ? 1 : -1 
+
+    a = Math.abs(a)
+
+
+    let rev = 0 
+
+    while(a>0){
+        let digit = a%10 
+        rev = rev * 10 + digit 
+        a = Math.floor(a/10)
+    }
+
+    return rev * sign
+}
+
+console.log(reverse(-12345));
+
+// *** Q10 Count digits
+
+// Function that counts the number of digits in a number
+
+const numcount = (a) => {
+
+    a = Math.abs(a);
+
+    if (a === 0) return 1;
+
+    let count = 0 
+    while(a>0){
+        a = Math.floor(a/10)
+        count ++
+    }
+    return count 
+}
+
+console.log(numcount(0));
+
+
 
 
 
