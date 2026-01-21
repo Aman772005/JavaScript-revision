@@ -111,7 +111,7 @@
 // console.log(num3 > 10 && num3 < 100)
 
 // /**
- 
+
 //  Q🔟 Check if a number is positive, negative, or zero
 
 //  */
@@ -280,7 +280,7 @@
 // }
 
 // /**
- 
+
 //   *** Q1️⃣7️⃣ Check if a year is a leap year
 
 //  */
@@ -294,7 +294,7 @@
 // }
 
 // /**
- 
+
 //  *** Q1️⃣8️⃣ Find the largest of three numbers
 
 //  */
@@ -338,7 +338,7 @@
 
 
 // /**
- 
+
 // *** Q2️⃣0️⃣ Check if a number is divisible by 5 and 11
 
 //  */
@@ -608,7 +608,7 @@
 // let greatest = no[0]
 
 // for(i=0;i<=no.length;i++){
-   
+
 //    if (no[i]>greatest){
 //     greatest = no[i]
 //    }  
@@ -638,8 +638,8 @@
 
 // Function to print your name, age, course in one line
 
-const details = (name,age,cource) => console.log(name,age,cource);
-details("Aman Singh Tomar",20,"BCA")
+const details = (name, age, cource) => console.log(name, age, cource);
+details("Aman Singh Tomar", 20, "BCA")
 
 
 
@@ -647,11 +647,11 @@ details("Aman Singh Tomar",20,"BCA")
 
 // Function that takes two numbers as parameters and returns sum
 
-function  add(a,b){
-    return a+b ;
+function add(a, b) {
+    return a + b;
 }
 
-let result = add(3,2)
+let result = add(3, 2)
 console.log(result)
 
 // Q3 Check even or odd
@@ -659,7 +659,7 @@ console.log(result)
 // Function that takes a number and returns "Even" or "Odd"
 
 
-const evenodd = (a) => {a%2 === 0 ? "even" : "odd" } ;
+const evenodd = (a) => { a % 2 === 0 ? "even" : "odd" };
 
 let result1 = evenodd(81);
 console.log(result1);
@@ -668,7 +668,7 @@ console.log(result1);
 
 // Function that returns the square of input number
 
-const square = (a) => a*a ;
+const square = (a) => a * a;
 
 const result2 = square(32);
 console.log(result2);
@@ -680,11 +680,11 @@ console.log(result2);
 
 
 function PNZ(n) {
-    if(n>0){
+    if (n > 0) {
         return "positive"
-    }else if(n<0){
+    } else if (n < 0) {
         return "negative"
-    }else{
+    } else {
         return "Zero"
     }
 }
@@ -702,7 +702,7 @@ console.log(PNZ(9));
 // Function with parameter n prints numbers from 1 to n
 
 
-const num = (n) =>{for(let i=1;i<=n;i++){console.log(i)}} 
+const num = (n) => { for (let i = 1; i <= n; i++) { console.log(i) } }
 
 num(5);
 
@@ -712,14 +712,14 @@ num(5);
 
 // Input: 5 → Output: 120
 
-const factorial = (n) =>  {
+const factorial = (n) => {
 
     let multiply = 1
 
-    for(let i = 1;i<=n;i++){
-    
-    multiply = multiply * i
-}
+    for (let i = 1; i <= n; i++) {
+
+        multiply = multiply * i
+    }
 
     return multiply
 }
@@ -733,16 +733,16 @@ console.log(factorial(5));
 const prime = (a) => {
 
 
-    if (a<=1) return false ;
+    if (a <= 1) return false;
 
 
-    for(let i=2;i<a;i++){
-       if( a % i === 0){
-         return false
-       }
+    for (let i = 2; i < a; i++) {
+        if (a % i === 0) {
+            return false
+        }
     }
-        return "true"
-        
+    return "true"
+
 }
 
 console.log(prime(17));
@@ -754,17 +754,17 @@ console.log(prime(17));
 
 const reverse = (a) => {
 
-    let sign = a>0 ? 1 : -1 
+    let sign = a > 0 ? 1 : -1
 
     a = Math.abs(a)
 
 
-    let rev = 0 
+    let rev = 0
 
-    while(a>0){
-        let digit = a%10 
-        rev = rev * 10 + digit 
-        a = Math.floor(a/10)
+    while (a > 0) {
+        let digit = a % 10
+        rev = rev * 10 + digit
+        a = Math.floor(a / 10)
     }
 
     return rev * sign
@@ -782,20 +782,15 @@ const numcount = (a) => {
 
     if (a === 0) return 1;
 
-    let count = 0 
-    while(a>0){
-        a = Math.floor(a/10)
-        count ++
+    let count = 0
+    while (a > 0) {
+        a = Math.floor(a / 10)
+        count++
     }
-    return count 
+    return count
 }
 
 console.log(numcount(0));
-
-
-// 🔵 FUNCTION + CONDITIONAL LOGIC
-
-
 
 // Q11 Largest of 3 numbers
 
@@ -803,19 +798,78 @@ console.log(numcount(0));
 
 // this is direct way of solving
 
-const largest = (a,b,c) => {
+const largest = (a, b, c) => {
 
-    return Math.max(a,b,c);
+    return Math.max(a, b, c);
 
-// this is by logic or you can say by if,else 
+    // this is by logic or you can say by if,else 
 
-//    if (a>b && a>c) return a;
-//    if(b>a && b>c) return b;
-//    return c;
+    //    if (a>b && a>c) return a;
+    //    if(b>a && b>c) return b;
+    //    return c;
 
 }
 
-console.log(largest(133,873,43873));
+console.log(largest(133, 873, 43873));
+
+// Q12 Leap year
+
+// Function that returns true if a year is leap, false otherwise
+
+// Hint: divisible by 4, but refine for full leap logic
+
+const leapyear = (a) => {
+    if ((a % 4 === 0 && a % 100 != 0) || a % 400 === 0) return true;
+    return false;
+}
+
+console.log(leapyear(2020));
+
+// Q13 Sum of digits
+
+// Function that returns sum of digits of a number
+
+const numsum = (a) => {
+    a = Math.abs(Math.floor((a)));
+
+    let sum = 0;
+
+    while (a > 0) {
+        let digit = a % 10;
+        sum = sum + digit;
+        a = Math.floor(a / 10)
+    }
+
+    return sum;
+
+}
+
+console.log(numsum(-12.34));
+
+// Q14 Check palindrome number
+
+// Function that returns true if number is palindrome
+
+const palindrome = (a) => {
+
+    let num = a ;
+
+    let rev = 0 ;
+
+    num = Math.abs(num);
+
+    while(num>0){
+        let digit = num % 10 ;
+        rev = rev * 10 +digit ;
+        num = Math.floor(num/10) ;
+    }
+
+    if (rev === a ) return true ;
+    return false ;
+    
+}
+
+console.log(palindrome(12211)) ;
 
 
 
@@ -834,11 +888,6 @@ console.log(largest(133,873,43873));
 
 
 
-
-
-
-
-  
 
 
 
