@@ -793,6 +793,37 @@ const numcount = (a) => {
 console.log(numcount(0));
 
 
+// 🔵 FUNCTION + CONDITIONAL LOGIC
+
+
+
+// Q11 Largest of 3 numbers
+
+// Function that returns largest among three numbers
+
+// this is direct way of solving
+
+const largest = (a,b,c) => {
+
+    return Math.max(a,b,c);
+
+// this is by logic or you can say by if,else 
+
+//    if (a>b && a>c) return a;
+//    if(b>a && b>c) return b;
+//    return c;
+
+}
+
+console.log(largest(133,873,43873));
+
+
+
+
+
+
+
+
 
 
 
