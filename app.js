@@ -871,6 +871,58 @@ const palindrome = (a) => {
 
 console.log(palindrome(12211)) ;
 
+// Q15 Table of a number
+
+// Function that prints multiplication table of given number
+
+const tables = (a,b)  => {
+    for(let i=1;i<=b;i++){
+        console.log(`${a} * ${i} = ${a*i} `)
+    }
+}
+
+tables(5,15);
+
+// 🔵 FUNCTION + ARRAYS (PREPARE FOR NEXT STEP)
+
+// Q16 Sum of array
+
+// Function takes array and returns sum of all elements
+
+
+function arrsum(arr){
+    let sum = 0
+    for(let i = 0;i<arr.length;i++){
+        sum += arr[i]  
+    }
+    return sum ;
+}
+
+console.log(arrsum([10,20,30]));
+
+// Q17 Largest element in array
+
+// Function takes array and returns largest element
+
+function largestarr(arr){
+
+    let digit = arr[0];
+
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]>digit) {
+            digit = arr[i]
+        } 
+    }
+
+    return digit ;
+
+}
+
+console.log(largestarr([2,3,4,5,6,7,8]));
+
+
+
+
 
 
 
