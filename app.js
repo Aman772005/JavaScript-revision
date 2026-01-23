@@ -921,11 +921,51 @@ function largestarr(arr){
 console.log(largestarr([2,3,4,5,6,7,8]));
 
 
+// Q18 Count even and odd in array
 
+// Function takes array and returns object like {even: 3, odd: 2}
 
+const EvenOdd = (arr) => {
+    let Even = 0 ;
+    let Odd = 0 ;
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]%2===0){
+            Even ++
+        }else{
+            Odd ++
+        }
+    }
+    return {Even,Odd};
+}
 
+console.log(EvenOdd([1,2,3,4,5,6]))
 
+// Q19 Reverse an array
 
+// Function that reverses array without using reverse()
+
+const Reverse = (arr) => {
+    
+    let rev = []
+    
+    for(let i=arr.length-1;i>=0;i--){
+        rev.push(arr[i]);
+    }
+    return rev ;
+}
+
+console.log(Reverse([1,2,3,4,5])) ;
+
+// Q20 Remove duplicates
+
+// Function that returns array with duplicates removed
+
+const duplicates = (arr) => {
+    let unique = [...new Set(arr)]
+    return unique ; 
+}
+
+console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 
 
 
