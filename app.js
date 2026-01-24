@@ -969,6 +969,70 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 
 
 
+// 🔵 BASIC ARRAY CONTROL
+
+// Q1 Create an array of 5 numbers and print all elements
+
+// let arr = [10,20,30,40,50]
+
+// console.log(arr) ;
+
+// Q2 Print array elements in reverse order (without reverse())
+
+
+// let arr = [1,2,3,4,5,6,7]
+// by with out any function 'new is for creating a new thing' and 'Array' tells as that we need to build a new array 
+// let rev = new Array(arr.length)
+
+// for(i=0;i<arr.length;i++){
+//in this line rev value for index:i(0,1,2,3,4,5,6) is going to equal with last value of arr by using index 'arr.length-1-i' this tells us that the arr.length is 7-1-0 which is 6 that index value is gooing to be rev value now thats how loop gona work till i = 8 
+//     rev[i] = arr[arr.length-1-i]
+// }
+
+// console.log(rev)
+
+// function 
+
+// const arr=(a)=>{
+//     let rev = new Array(a.length)
+//     for(i=0;i<a.length;i++){
+//         rev[i]=a[a.length-1-i]
+//     }
+//     return rev ;
+// }
+
+// console.log(arr([1,2,3,4,5]))
+
+// Q3 Find sum of all elements
+
+// let arr = [10,20,30]
+// let sum = 0
+
+// for(let i=0;i<arr.length;i++){
+//     sum += arr[i]
+// }
+
+// console.log(sum)
+
+// const arr = (a) => {
+//     let sum = 0
+//     for(let i=0;i<a.length;i++){
+//         sum += a[i]
+//     }
+//     return sum ;
+// }
+
+// console.log(arr([10,20,30,40,50]))
+
+let arr = [1,2,3,4,15]
+let sum = 0
+
+for(let digit of arr){
+    sum += digit
+}
+
+console.log(sum)
+
 
 
 
