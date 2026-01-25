@@ -1033,6 +1033,8 @@ for(let digit of arr){
 
 console.log(sum)
 
+// one change only 
+
 
 
 
