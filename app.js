@@ -1024,16 +1024,60 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 
 // console.log(arr([10,20,30,40,50]))
 
-let arr = [1,2,3,4,15]
-let sum = 0
+// let arr = [1,2,3,4,15]
+// let sum = 0
 
-for(let digit of arr){
-    sum += digit
+// for(let digit of arr){
+//     sum += digit
+// }
+
+// console.log(sum)
+
+
+
+// Q4 Find average of elements
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+// let sum = 0 
+
+
+// for(let i = 0 ;i<arr.length;i++){
+//     sum += arr[i]
+  
+// }
+
+//  let avg = sum/arr.length
+
+// console.log(avg)
+
+// Q5 Find largest element
+
+// let arr = [1,2,3,4,5,6,7,8,9]
+
+// let digit = arr[0]
+
+// for(let i = 0; i<arr.length;i++){
+//     if(arr[i]>digit){
+//     digit = arr[i] 
+//     }
+   
+// }
+// console.log(digit) 
+
+// Q6 Find smallest element
+
+let arr = [1,2,3,4,5,6,7,8,9]
+
+let digit = arr[0]
+
+for(let i = 0; i<arr.length;i++){
+    if(arr[i]<digit){
+    digit = arr[i] 
+    }
+   
 }
+console.log(digit)
 
-console.log(sum)
-
-// one change only 
 
 
 
