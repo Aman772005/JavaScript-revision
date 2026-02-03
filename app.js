@@ -1066,20 +1066,76 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 
 // Q6 Find smallest element
 
-let arr = [1,2,3,4,5,6,7,8,9]
+// let arr = [1,2,3,4,5,6,7,8,9]
 
-let digit = arr[0]
+// let digit = arr[0]
 
-for(let i = 0; i<arr.length;i++){
-    if(arr[i]<digit){
-    digit = arr[i] 
-    }
+// for(let i = 0; i<arr.length;i++){
+//     if(arr[i]<digit){
+//     digit = arr[i] 
+//     }
    
+// }
+// console.log(digit)
+
+
+// 🔵 COUNTING + CONDITIONS
+
+
+// Q7 Count even and odd numbers
+
+// Output:
+// { even: 3, odd: 2 }
+
+// let arr = [1,2,3,4,5]
+// let even = 0;
+// let odd = 0;
+
+// for(const num of arr){
+//     if(num%2===0){
+//         even++;
+//     }else{
+//         odd++;
+//     }
+// }
+// console.log(`{even:${even},odd:${odd}}`)
+
+// Q8 Count how many numbers are positive, negative, zero
+
+
+// let arr = [1,2,3,4,-6,0,4,345,0]
+// let positive = 0;
+// let negative = 0;
+// let zero = 0;
+
+// for(const num of arr){
+//     if(num>0){
+//         positive++;
+//     }else if(num<0){
+//         negative++;
+//     }else{
+//         zero++;
+//     }
+// }
+// console.log(positive,negative,zero)
+
+
+// Q9 Count how many times a specific number appears
+
+// Input:
+// [1,2,3,2,4,2], find 2
+// Output: 3
+
+let arr = [1,2,3,2,4,2]
+let a = 2 ;
+let counta = 0;
+
+for(const num of arr){
+    if(a===num){
+        counta++;
+    }
 }
-console.log(digit)
-
-// changes 
-
+console.log(counta)
 
 
 
