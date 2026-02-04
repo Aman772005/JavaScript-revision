@@ -1126,16 +1126,71 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 // [1,2,3,2,4,2], find 2
 // Output: 3
 
-let arr = [1,2,3,2,4,2]
-let a = 2 ;
-let counta = 0;
+// let arr = [1,2,3,2,4,2]
+// let a = 2 ;
+// let counta = 0;
 
-for(const num of arr){
-    if(a===num){
-        counta++;
+// for(const num of arr){
+//     if(a===num){
+//         counta++;
+//     }
+// }
+// console.log(counta)
+
+// Q10 Print only numbers divisible by 3
+
+// let arr = [1,2,3,4,5,6]
+
+// // arr.filter(n=>n%3===0).forEach(n=>console.log(n))
+// arr.forEach( n=>{
+//    if(n%3===0){
+//     console.log(n)
+//    }
+// })
+
+
+
+// for(const num of arr){
+//     if(num%3===0){
+//         console.log(num)
+//     }
+// }
+
+// 🔵 SEARCHING LOGIC
+
+
+// Q11 Linear search
+
+// Return index of a given element
+// Return -1 if not found
+
+const search = (arr,b) =>{
+    for(let i = 0;i<arr.length;i++){
+        if(b===arr[i]){
+            return i
+        }
     }
+    return -1
 }
-console.log(counta)
+console.log(search(([1,2,3,4,5,6]),6))
+
+// Q12 Check if array is sorted decending
+
+// Return true or false
+
+
+const decending = (arr) =>{
+    for (i= 0;i<arr.length;i++){
+        if(arr[i]<arr[i+1]){
+            return false      
+        }
+    }
+    return  true
+}
+
+console.log(decending([8,7,6]))
+
+
 
 
 
