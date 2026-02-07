@@ -1164,35 +1164,76 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 // Return index of a given element
 // Return -1 if not found
 
-const search = (arr,b) =>{
-    for(let i = 0;i<arr.length;i++){
-        if(b===arr[i]){
-            return i
-        }
-    }
-    return -1
-}
-console.log(search(([1,2,3,4,5,6]),6))
+// const search = (arr,b) =>{
+//     for(let i = 0;i<arr.length;i++){
+//         if(b===arr[i]){
+//             return i
+//         }
+//     }
+//     return -1
+// }
+// console.log(search(([1,2,3,4,5,6]),6))
 
 // Q12 Check if array is sorted decending
 
 // Return true or false
 
 
-const decending = (arr) =>{
-    for (i= 0;i<arr.length;i++){
-        if(arr[i]<arr[i+1]){
-            return false      
+// const decending = (arr) =>{
+//     for (i= 0;i<arr.length;i++){
+//         if(arr[i]<arr[i+1]){
+//             return false      
+//         }
+//     }
+//     return  true
+// }
+
+// console.log(decending([8,7,6]))
+
+
+
+// Q13 Find second largest element (no sort)
+
+// Hard. Think carefully.
+
+// let arr = [234,637468,3274623,38648372,7832847243];
+// let arr1 = []
+// console.log(arr1)
+// for(i=0;i<arr.length;i++){
+//     if (arr[i]>arr[i+1]){
+//         arr1.push(arr[i])
+//     }
+// }
+// console.log(arr1)
+
+// Q14 Find second smallest element (no sort)
+
+// Q15 Remove duplicates manually (no Set)
+
+let arr = [1,2,3,4,5,1,2,34]
+
+for(i=0;i<arr.length;i++){
+   console.log(arr[i]) 
+    for(j=i+1;j<arr.length;j++){
+        let value = arr[i]
+        let index = arr.indexOf(value);
+        if(index !== -1){
+            arr.splice(index,1)
         }
     }
-    return  true
+   
 }
+ console.log(arr)
 
-console.log(decending([8,7,6]))
+// Input:
+// [1,2,2,3,1,4]
 
+// Output:
+// [1,2,3,4]
 
-
-
+// 🔵 ARRAY TRANSFORMATION
+// Q16 Reverse array manually and store in new array
+// Q17 Copy one array into another
 
 
 
