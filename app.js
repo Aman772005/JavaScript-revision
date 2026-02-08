@@ -1196,22 +1196,38 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 
 // Hard. Think carefully.
 
-let arr = [10,20,40,50,5,7]
+// let arr = [10,20,40,50,5,7]
 
-let larg = -Infinity;
-let second = -Infinity;
+// let larg = -Infinity;
+// let second = -Infinity;
 
-for(let num of arr){
-    if(num>larg){
-        second=larg;
-        larg=num;
-    }else if(num>second && num!==larg){
-        num = second;
-    }
-}
-console.log(second)
+// for(let num of arr){
+//     if(num>larg){
+//         second=larg;
+//         larg=num;
+//     }else if(num>second && num!==larg){
+//         num = second;
+//     }
+// }
+// console.log(second)
 
-// Q14 Find second smallest element (no sort)
+// // Q14 Find second smallest element (no sort)
+
+// let arr = [10,20,30,50,3,5]
+
+// let smallest = Infinity;
+// let second = Infinity;
+
+// for(let num of arr){
+//     if(num<smallest){
+//         second = smallest;
+//         smallest = num;
+//     }else if(num<second && num!==smallest){
+//         second = num;
+//     }
+// }
+// console.log(second)
+// console.log(smallest)
 
 // Q15 Remove duplicates manually (no Set)
 
