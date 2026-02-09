@@ -1231,8 +1231,8 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 
 // Q15 Remove duplicates manually (no Set)
 
-
-
+let arr = [1,2,3,4,5,6,7,8,5,4,3]
+//  this is enough 
 // Input:
 // [1,2,2,3,1,4]
 
