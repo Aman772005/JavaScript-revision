@@ -1242,6 +1242,7 @@ let arr = [1,2,3,4,5,6,7,8,5,4,3]
 // 🔵 ARRAY TRANSFORMATION
 // Q16 Reverse array manually and store in new array
 // Q17 Copy one array into another
+// hii i am aman singh tomar
 
 
 
