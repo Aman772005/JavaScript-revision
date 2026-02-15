@@ -1235,21 +1235,73 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 // Output:
 // [1,2,3,4]
 
-// let arr = [1,2,2,3,1,4]
+// let arr = [1,2,2,3,1,4];
+// let res = [];
 
-// for(let num of arr){
-//     for(let i = 0;i<arr.length;i++){
-//         if(num === arr[i]){
-//             arr.splice(i)
-//         }
+// for(let i=0;i<arr.length;i++){
+//     if(!res.includes(arr[i])){
+//         res.push(arr[i])
 //     }
 // }
 
+// console.log(`${res} this is ans`);
 
 
 // 🔵 ARRAY TRANSFORMATION
 // Q16 Reverse array manually and store in new array
+// 
+
+// let arr = [1,2,3,4,5]
+// let res = []
+
+// for(let i=arr.length-1;i>=0;i--){
+//     res.push(arr[i])
+// }
+
+// console.log(res)
+
+// let arr = [1,2,3,4,5]
+
+// let res = arr.reverse()
+
+// console.log(res)
+
 // Q17 Copy one array into another
+
+let arr = [1,2,3,4,5]
+let res = []
+
+for(let i = 0;i<arr.length;i++){
+    res.push(arr[i])
+}
+
+console.log(res)
+
+// Q18 Merge two arrays
+
+// Input:
+// [1,2] + [3,4]
+// Output:
+// [1,2,3,4]
+
+// Q19 Rotate array left by 1
+
+// Input:
+// [1,2,3,4]
+
+// Output:
+// [2,3,4,1]
+
+// Q20 Find intersection of two arrays
+
+// Input:
+// [1,2,3,4]
+// [3,4,5,6]
+
+// Output:
+// [3,4]
+
+// No duplicates in result.
 
 
 
