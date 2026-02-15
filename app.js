@@ -1230,19 +1230,26 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 // console.log(smallest)
 
 // Q15 Remove duplicates manually (no Set)
-
-let arr = [1,2,3,4,5,6,7,8,5,4,3]
-//  this is enough 
 // Input:
 // [1,2,2,3,1,4]
-
 // Output:
 // [1,2,3,4]
+
+// let arr = [1,2,2,3,1,4]
+
+// for(let num of arr){
+//     for(let i = 0;i<arr.length;i++){
+//         if(num === arr[i]){
+//             arr.splice(i)
+//         }
+//     }
+// }
+
+
 
 // 🔵 ARRAY TRANSFORMATION
 // Q16 Reverse array manually and store in new array
 // Q17 Copy one array into another
-// hii i am aman singh tomar
 
 
 
