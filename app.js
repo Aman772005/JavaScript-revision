@@ -1268,14 +1268,14 @@ console.log(duplicates([1,2,4,4,5,6,6,7,6]))
 
 // Q17 Copy one array into another
 
-let arr = [1,2,3,4,5]
-let res = []
+// let arr = [1,2,3,4,5]
+// let res = []
 
-for(let i = 0;i<arr.length;i++){
-    res.push(arr[i])
-}
+// for(let i = 0;i<arr.length;i++){
+//     res.push(arr[i])
+// }
 
-console.log(res)
+// console.log(res)
 
 // Q18 Merge two arrays
 
@@ -1284,13 +1284,32 @@ console.log(res)
 // Output:
 // [1,2,3,4]
 
+// let arr = [1,2,3]
+// let arr1 = [4,5,6,7,8,9,10]
+
+// let newarr = arr.concat(arr1);
+// console.log(newarr)
+
 // Q19 Rotate array left by 1
 
 // Input:
 // [1,2,3,4]
-
 // Output:
 // [2,3,4,1]
+
+let arr = [1,2,3,4];
+let first = arr[0];
+for(let i = 0;i<arr.length-1;i++){
+    arr[i]=arr[i+1]
+}
+
+arr[arr.length-1]=first
+
+console.log(arr)
+
+
+
+
 
 // Q20 Find intersection of two arrays
 
