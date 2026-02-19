@@ -1308,9 +1308,6 @@ arr[arr.length-1]=first
 console.log(arr)
 
 
-
-
-
 // Q20 Find intersection of two arrays
 
 // Input:
@@ -1321,6 +1318,8 @@ console.log(arr)
 // [3,4]
 
 // No duplicates in result.
+
+// hii there 
 
 
 
